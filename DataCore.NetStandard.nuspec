@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Required elements-->
+    <id>DataCore.NetStandard</id>
+    <version>4.4.1</version>
+    <description>Provides interactibility with the Rappelz proprietary Data.xxx file storage system.</description>
+    <authors>iSmokeDrow x Armala</authors>
+
+    <!-- Optional elements -->
+    <license type="expression">GNU</license>
+    <projectUrl>https://github.com/rzLabs/DataCore</projectUrl>
+    <icon>f.png</icon>
+    
+  </metadata>
+  
+  <!-- Optional 'files' node -->
+  <files>
+    
+    <file src="f.png" />
+
+  </files>
+</package>
