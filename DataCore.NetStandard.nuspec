@@ -8,7 +8,7 @@
     <authors>iSmokeDrow x Armala</authors>
 
     <!-- Optional elements -->
-    <license type="expression">GNU</license>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/rzLabs/DataCore</projectUrl>
     <icon>f.png</icon>
     
