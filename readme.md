@@ -1,3 +1,5 @@
+``The original copy of this code is maintained with a different framework at https://github.com/rzLabs/DataCore. This is a modified edition - the framework has been swapped from .NET Core 5.0 to .NET Standard 2.0 and the LUA functionality has been castrated to remove unnecessary references.``
+
 # Description
 
 Provides interactibility with the Rappelz proprietary `Data.xxx` file storage system.
