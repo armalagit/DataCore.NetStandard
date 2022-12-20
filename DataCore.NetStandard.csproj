@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon>letter-f.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>DataCore.NetStandard</Title>
+    <Version>4.4.1</Version>
+    <Description>Provides interactibility with Rappelz Data.XXX File-System.</Description>
+    <Company>iSmokeDrow x Armala</Company>
+    <Authors>iSmokeDrow x Armala</Authors>
+    <SignAssembly>False</SignAssembly>
+    <Copyright>GNU</Copyright>
+    <PackageProjectUrl>https://github.com/rzLabs/DataCore</PackageProjectUrl>
+    <PackageIcon>letter-f.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>GNU</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="letter-f.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="letter-f.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
